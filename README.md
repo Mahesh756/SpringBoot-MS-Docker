@@ -12,35 +12,11 @@ This project is a Spring Boot Microservices implementation for currency conversi
 - **naming-server**: Eureka Naming Server for service discovery.
 - **docker-compose.yaml**: Docker Compose file to orchestrate the deployment of microservices.
 
-## Getting Started
-
-1. Clone the repository.
-   git clone <repository-url>
-
-ChatGPT
-Certainly! Based on the information you provided, here's a template for the README file for your Spring Boot Microservices project with Docker:
-
-markdown
-Copy code
-# Currency Conversion Microservices Project
-
-## Overview
-
-This project is a Spring Boot Microservices implementation for currency conversion. It comprises several microservices, each serving a specific purpose, orchestrated using Docker.
-
-## Project Structure
-
-- **api-gateway**: Microservice acting as the API gateway for the project.
-- **currency-conversion-service**: Microservice responsible for handling currency conversion requests.
-- **currency-exchange-service**: Microservice providing currency exchange rates.
-- **naming-server**: Eureka Naming Server for service discovery.
-- **docker-compose.yaml**: Docker Compose file to orchestrate the deployment of microservices.
 
 ## Getting Started
 
 1. Clone the repository.
    git clone <repository-url>
-   cd <repository-folder>
 
 2. Build and run the microservices using Docker
    docker-compose up
